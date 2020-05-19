@@ -1,0 +1,196 @@
+body {
+  background-color: #ededed;
+  background-image: url("/images/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Helvetica;
+}
+/* .title {
+  /* margin-bottom: 25px;
+  height: 180px;
+} */
+
+h2 {
+  line-height: 1.2;
+  font-size: 2.125rem;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
+  padding: 35px 48px 40px;
+  /* background-color: #FFFFFF; */
+}
+
+.supporting, .topic{
+  /* text-indent: 2.5em; */
+  padding: 1em 1em 0.5em;
+  text-align: justify;
+  margin-bottom: 20px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.supporting2, .supporting3 {
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.supporting1 {
+  margin-bottom: 0;
+}
+
+.logos {
+    height: 225px;
+    background-color: white;
+    margin-bottom: 7px;
+}
+
+.landslide-section {
+  width: 340px;
+  height: 225px;
+  background-image: url("/images/BoulderTherapyBldg.jpg");
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: 340px 225px;
+  position: relative;
+  /* margin-bottom: 7px; */
+  display: inline-block;
+}
+
+.logo {
+  background-image: url("/images/LOGO 3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 450px 225px;
+  height: 225px;
+  width: 500px;
+  display: inline-block;
+  /* margin-bottom: 7px; */
+  margin-left: 60px;
+}
+
+.section1 {
+  background-image: linear-gradient(rgba(96,128,163,0.5),rgba(16,47,80,0.5));
+  margin-bottom: 7px;
+}
+
+.minified {
+  margin: 0 25%;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding:7px;
+}
+
+.information1 {
+  font-family: "Merriweather Sans", sans-serif;
+  color: #107896;
+  /* background-color: #e1e1e1; */
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.onmobile.navbar-brand {
+  color: #28a745;
+}
+
+.onmobile {
+  font-weight: 600;
+}
+
+.what, .how {
+  font-size: 5rem;
+  color: mediumseagreen;
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.factors {
+  text-indent: 4rem;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 960px){
+  .what, .how {
+    font-size: 3rem;
+    width: 100px;
+    margin-right: 0;
+  }
+
+  .supporting, .topic {
+    margin-right: 10px;
+  }
+
+  .supporting2, .supporting3 {
+    margin-left: 0;
+  }
+
+  .factors {
+    text-indent: 2rem;
+  }
+
+  div.information1 {
+    background-color: white;
+    padding-top: 10px;
+  }
+
+ .minified {
+   margin: 0 2%;
+ }
+
+ .brand {
+   font-size: 1rem;
+ }
+
+ h2 {
+   font-size: 1.5rem;
+   padding: 20px 25px 25px;
+ }
+
+ body {
+   background-image: url("/images/portraitSat.jpg");
+ }
+
+ .information1 {
+   font-family: "Merriweather Sans", sans-serif;
+   background-color: #e1e1e1;
+   font-size: 0.85rem;
+ }
+
+ .navbar {
+   display: inline-block;
+ }
+
+ .onmobile.navbar-brand{
+   color: white;
+ }
+
+ .logos {
+     height: 150px;
+     background-color: white;
+     margin-bottom: 7px;
+ }
+
+ .landslide-section {
+   /* width: inherit;
+   height: 225px;
+   background-image: url("/images/BoulderTherapyBldg.jpg");
+   background-position: initial;
+   background-repeat: no-repeat;
+   background-size: 340px 225px;
+   position: relative;
+   margin-bottom: 7px; */
+   display: none;
+ }
+
+ .logo {
+   /* background-image: url("/images/LOGO 3.png"); */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: inherit;
+   width: inherit;
+   display: block;
+   margin-left: 0;
+   /* margin-bottom: 7px; */
+ }
+
+}

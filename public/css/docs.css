@@ -1,0 +1,79 @@
+
+body {
+  background-image: url("/images/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 40px auto 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.minified {
+    margin: 0 25%;
+    background-image: linear-gradient(rgba(96,128,163,0.5),rgba(16,47,80,0.5));
+    padding:7px;
+}
+
+.onmobile.navbar-brand {
+  color: #28a745;
+}
+
+.onmobile {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    background-image: url("/images/portraitSat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 30px auto 40px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: grey;
+  }
+
+  .minified {
+      background-image: linear-gradient(rgba(96,128,163,0),rgba(16,47,80,0));
+  }
+
+  .brand {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .minified {
+    margin: 0 2%;
+  }
+
+  .onmobile.navbar-brand {
+    color: white;
+  }
+}

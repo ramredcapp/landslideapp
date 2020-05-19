@@ -10,6 +10,7 @@ app.use(express.static("public"));
 
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
+  // res.send("<h1> Hey its me </h1>");
 });
 
 app.get("/about", function(req, res) {
